@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: 'Raleway', sans-serif;
+}
 .cabecalho {
     background-color: #0B0A0A; 
     color: white;
@@ -19,4 +21,29 @@ width: 20%;
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-color: #0B0A0A; 
+    background-image: linear-gradient(#DCF8D8,#38F819);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 120px;
+}
+.estudante-icone{
+    width: 24px;
+}
+.estudante-div{
+   text-align: center;
 }
