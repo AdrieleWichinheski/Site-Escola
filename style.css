@@ -55,6 +55,14 @@ body {
     padding: 24px 0;
 }
 
+#professores{
+    padding: 24px 0;
+}
+
+#funcionarios{
+    padding: 24px 0;
+}
+
 
 .estudante-imagem{
     width: 120px;
@@ -80,6 +88,11 @@ body {
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
+.professores-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
 .professores-imagem{
     width: 120px;
 }
@@ -94,6 +107,24 @@ body {
     padding: 50px 0;
 }
 
+.funcionarios-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.funcionarios-imagem{
+    width: 120px;
+}
+
+.funcionarios-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.funcionarios-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
 .rodape{
     background-color: black;
     text-align: center;
